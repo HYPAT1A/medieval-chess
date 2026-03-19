@@ -23,7 +23,7 @@ html, body {
   font-family: 'Crimson Text', Georgia, serif;
   background: var(--bg-dark);
   color: var(--text-light);
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   display: flex;
@@ -35,7 +35,7 @@ html, body {
 }
 
 #game {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 @media (min-width: 701px) {
@@ -51,7 +51,7 @@ html, body {
 
 .container {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
